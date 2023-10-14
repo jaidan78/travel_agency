@@ -1,0 +1,29 @@
+extends ./layout/index
+
+block contenido 
+   main.container.mt-5 
+    .row 
+        .col-md-5 
+            img(src="img/nosotros.jpg", alt="nos", class='img-fluid')
+        .col-md-7
+            h1 #{pagina}
+            blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultricies lorem pharetra sodales varius. Nam at rutrum nisi. Integer mollis eu orci vitae imperdiet. In nec porta erat, vel sollicitudin nibh.
+
+            p Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus consectetur purus quis vestibulum condimentum. Suspendisse laoreet aliquam magna. Fusce egestas metus eget eros facilisis, at vulputate libero posuere. 
+
+            p Vestibulum in bibendum velit. Nulla molestie lacus quam, sit amet suscipit nisl iaculis ac. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce ac luctus tortor. Integer euismod tortor quis lorem rutrum lobortis. Sed imperdiet nisi sodales convallis porta. Vivamus at sem at est tempor tempus. 
+   .listado-iconos 
+        .container.mt-5.py-5.text-center 
+            .row 
+                .col-md-4 
+                    img(src='img/icono_seguridad.svg' alt='safe icon' class='img-fluid mb-4')
+                    h2.mb-4 Seguridad
+                    p Duis quis dolor eget velit consequat bibendum. Nullam ac ligula rhoncus, ultrices nunc id, sagittis dolor.  
+                .col-md-4 
+                    img(src='img/icono_destinos.svg' alt='destiny icon' class='img-fluid mb-4')
+                    h2.mb-4 Mejores Destinos
+                    p Duis quis dolor eget velit consequat bibendum. Nullam ac ligula rhoncus, ultrices nunc id, sagittis dolor.
+                .col-md-4 
+                    img(src='img/icono_precios.svg' alt='prices icon' class='img-fluid mb-4')
+                    h2.mb-4 Mejores Precios
+                    p Duis quis dolor eget velit consequat bibendum. Nullam ac ligula rhoncus, ultrices nunc id, sagittis dolor. 
