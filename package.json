@@ -19,5 +19,8 @@
     "pg-hstore": "^2.3.4",
     "pug": "^3.0.2",
     "sequelize": "^6.33.0"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.4.10"
   }
 }
